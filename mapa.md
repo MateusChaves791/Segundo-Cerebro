@@ -8,10 +8,13 @@ Unidade: Servopa Pinheirinho (também citada como DN 1.2 internamente e DN 1417 
 - `hot.md`: o que está em andamento agora.
 - `pendencias.md`: o que falta confirmar ou concluir.
 - `regras.md`: regras de integridade (não inventar, não atualizar status histórico, preservar datas e valores).
+- `classificacao.md`: o que é profissional, pessoal ou jeito de trabalhar, e como limpar.
 - `modelo-registro.md`: modelo para registrar novos assuntos.
 
 ## perfil/
-- `perfil-profissional.md`: cargo, forma de liderar, estilo de escrita e objetivos.
+- `profissional.md`: cargo e atuação na Servopa (profissional).
+- `jeito-de-trabalhar.md`: como pensa, lidera e escreve (pessoal).
+- `objetivos-pessoais.md`: formação e carreira (pessoal, uso restrito).
 
 ## areas/
 - `pecas-operacao.md`: responsabilidades, compras, venda e sistemas.
