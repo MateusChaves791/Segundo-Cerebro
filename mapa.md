@@ -35,3 +35,6 @@ Leia este arquivo primeiro. Ele indica o que existe em cada pasta e a ordem de m
 ## Regras
 - Sem números internos da empresa, nomes de clientes ou dados de pessoas.
 - Cada nota é texto simples e pode ser lida e editada à mão.
+
+## Fontes
+- `fontes/base-mestra.md`: cópia integral da base mestra de conhecimento (histórico de conversas anteriores). Use como referência. Antes de agir sobre qualquer dado, confirme se ele ainda vale: os status são históricos.
