@@ -1,40 +1,42 @@
 # Mapa do segundo cérebro
 
-Leia este arquivo primeiro. Ele indica o que existe em cada pasta e a ordem de montagem.
+Leia este arquivo primeiro. Ele aponta para cada nota. Não é preciso ler o documento de fonte inteiro.
 
-## Arquivos da raiz
-- `mapa.md`: este índice.
-- `hot.md`: o que está em andamento agora (atualizar ao fim de cada conversa).
-- `pendencias.md`: prazos e itens abertos.
-- `decisoes.md`: decisões tomadas e critérios de entrega boa.
+Unidade: Servopa Pinheirinho (também citada como DN 1.2 internamente e DN 1417 na Volkswagen; é a mesma unidade).
 
-## Pastas
-- `areas/`: uma nota por área de trabalho, com status, próximos passos e prazos.
-  - `ippr.md`: cobrança semanal de pendências à montadora.
-  - `reunioes-pos-venda.md`: reunião de casos críticos e reunião geral de peças.
-  - `inventario-ciclico.md`: planilhas de ciclo de contagem de peças.
-  - `orcamento-2027.md`: orçamento de 2027 e envio ao gerente.
-  - `busca-vaga.md`: busca de nova função em veículos pesados.
-- `receitas/`: tarefas repetidas, descritas em passos. Cada receita tem quando usar, entrada, passos, formato da saída, limites e um teste.
-  - `levantamento-panorama-geral.md`: levantamento do panorama para a reunião geral de peças (primeira receita, ainda a montar).
-- `decisoes/`: o que é decidido toda semana e de onde vêm os dados.
-  - `decisoes-e-dados.md`: compra de peças, descontos, mudanças de rota e promoções; preço, criticidade e fornecimento; dados por e-mail (funilaria) e sistema interno.
-- `perfil/`: quem você é no trabalho e o que usa no dia a dia (cargo, equipe, ferramentas, rotina semanal).
-  - `sobre-mim.md`
-  - `ferramentas.md`
-  - `rotina.md`
+## Raiz
+- `hot.md`: o que está em andamento agora.
+- `pendencias.md`: o que falta confirmar ou concluir.
+- `regras.md`: regras de integridade (não inventar, não atualizar status histórico, preservar datas e valores).
+- `modelo-registro.md`: modelo para registrar novos assuntos.
 
-## Ordem de montagem (passos)
-1. Criar `mapa.md` (este arquivo).
-2. Criar `perfil/sobre-mim.md`, `perfil/ferramentas.md` e `perfil/rotina.md` a partir dos textos já preenchidos.
-3. Criar `decisoes/decisoes-e-dados.md`.
-4. Criar `receitas/levantamento-panorama-geral.md` a partir da entrevista.
-5. Criar as notas de `areas/`.
-6. Criar `hot.md`, `pendencias.md` e `decisoes.md` (raiz).
+## perfil/
+- `perfil-profissional.md`: cargo, forma de liderar, estilo de escrita e objetivos.
 
-## Regras
-- Sem números internos da empresa, nomes de clientes ou dados de pessoas.
-- Cada nota é texto simples e pode ser lida e editada à mão.
+## areas/
+- `pecas-operacao.md`: responsabilidades, compras, venda e sistemas.
+- `gac-acessorios.md`: débito de peças em OS, acessórios e casos históricos.
+- `auditoria-ippr.md`: auditoria interna, títulos IPPR, Portal IPPR 2000 e divergências.
+- `estoque-remanejamentos.md`: estoque, recebimento, transferências e horários.
+- `comercial-campanhas.md`: campanhas, incentivos, indicadores e UP.
+- `fiscal-rentabilidade.md`: tributação de peças, devoluções por erro e reembolsos da montadora.
+- `pessoas-equipe.md`: estrutura de relacionamento, reconhecimento e recrutamento.
+- `planilhas-automacoes.md`: planilhas de acompanhamento, Apps Script e fórmulas.
+- `inventario-ciclico.md`: planilhas de ciclo de contagem.
 
-## Fontes
-- `fontes/base-mestra.md`: cópia integral da base mestra de conhecimento (histórico de conversas anteriores). Use como referência. Antes de agir sobre qualquer dado, confirme se ele ainda vale: os status são históricos.
+## decisoes/
+- `criterios-decisao.md`: princípios e perguntas para analisar problemas.
+
+## projetos/
+- `projetos-em-andamento.md`: as frentes que merecem acompanhamento contínuo.
+
+## receitas/
+- Em construção. A primeira será o levantamento do panorama geral da reunião de peças.
+
+## fontes/
+- `base-mestra.md`: cópia integral da base mestra de conhecimento, para consulta detalhada.
+
+## Como usar
+1. Leia `mapa.md` e `hot.md`.
+2. Abra só a nota do assunto. Se faltar detalhe, consulte `fontes/base-mestra.md`.
+3. Antes de agir com um dado antigo, confirme se ele ainda vale (ver `regras.md`).
